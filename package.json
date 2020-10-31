@@ -14,7 +14,8 @@
     "dev": "./node_modules/.bin/gulp dev",
     "release": "./node_modules/.bin/release-it",
     "release-beta": "./node_modules/.bin/release-it --preRelease=beta",
-    "source-maps": "gulp build && ./node_modules/.bin/tsc"
+    "source-maps": "gulp build && ./node_modules/.bin/tsc",
+    "package": "npm run build"
   },
   "repository": "pie-framework/pie-cli.git",
   "engines": {

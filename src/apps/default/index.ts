@@ -169,7 +169,7 @@ export default class DefaultApp
         addPlayerAndControlPanel
           ? [
               new ElementDeclaration('pie-player'),
-              new ElementDeclaration('pie-control-panel')
+              //new ElementDeclaration('pie-control-panel')
             ]
           : []
       )
